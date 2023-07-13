@@ -1,0 +1,9 @@
+﻿################################################################################
+# 이 .gitignore 파일은 Microsoft(R) Visual Studio에서 자동으로 만들어졌습니다.
+################################################################################
+
+/src/.vs/Hanori.Service
+/src/Hanori.Service.EFCore/bin/Debug/net7.0
+/src/Hanori.Service.EFCore/obj
+/src/Hanori.Service.UuitTest.EFCore/bin/Debug/net7.0
+/src/Hanori.Service.UuitTest.EFCore/obj
