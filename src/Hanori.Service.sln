@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hanori.Service.EFCore", "Hanori.Service.EFCore\Hanori.Service.EFCore.csproj", "{3402A1A8-8E73-413B-84DC-A5E7CF2CDB1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hanori.Service.EFCore", "Hanori.Service.EFCore\Hanori.Service.EFCore.csproj", "{3402A1A8-8E73-413B-84DC-A5E7CF2CDB1D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{C0F60A25-BF8D-4311-8331-12036640B67E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hanori.Service.UuitTest.EFCore", "Hanori.Service.UuitTest.EFCore\Hanori.Service.UuitTest.EFCore.csproj", "{C960C318-FEE1-4E6C-8DEC-E08C0D1AB47D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hanori.Service.UuitTest.EFCore", "Hanori.Service.UuitTest.EFCore\Hanori.Service.UuitTest.EFCore.csproj", "{C960C318-FEE1-4E6C-8DEC-E08C0D1AB47D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hanori.Service.ComNet", "Hanori.Service.ComNet\Hanori.Service.ComNet.csproj", "{4E7FD351-867F-4866-939D-76D713507427}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{C960C318-FEE1-4E6C-8DEC-E08C0D1AB47D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C960C318-FEE1-4E6C-8DEC-E08C0D1AB47D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C960C318-FEE1-4E6C-8DEC-E08C0D1AB47D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E7FD351-867F-4866-939D-76D713507427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E7FD351-867F-4866-939D-76D713507427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E7FD351-867F-4866-939D-76D713507427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E7FD351-867F-4866-939D-76D713507427}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

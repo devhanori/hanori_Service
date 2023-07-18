@@ -33,8 +33,10 @@ namespace Hanori.Service.UuitTest.EFCore
         
         public void TestCRUD()
         {
+            // Arrange
             var entity = new Sample();
 
+            // Act
             CreateOne(entity);
         }
 
