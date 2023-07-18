@@ -3,7 +3,7 @@ using Hanori.Service.EFCore;
 namespace Hanori.Service.UuitTest.EFCore
 {
     [TestClass]
-    public class UnitTest1 : EFCoreManager<Sample>
+    public class EFCoreUnitTest : EFCoreManager<Sample>
     {
         [TestMethod]
         public void TestCreateOne()
