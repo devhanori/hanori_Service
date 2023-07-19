@@ -6,11 +6,12 @@ namespace Hanori.Service.EFCore
 {
     public class EFCoreManager<TEntity> where TEntity : class
     {
-        private SampleDbContext context;
+        //private SampleDbContext context;
+        private OrangeDbContext context;
 
         public EFCoreManager()
         {
-            this.context = new SampleDbContext();
+            this.context = new OrangeDbContext();
         }
 
         #region Create

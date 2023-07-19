@@ -4,7 +4,7 @@ using System.Diagnostics;
 namespace Hanori.Service.UuitTest.EFCore
 {
     [TestClass]
-    public class EFCoreUnitTest : EFCoreManager<Sample>
+    public class EFCoreUnitTest : EFCoreManager<TestSample>
     {
         [TestMethod]
         public void TestSyncAsync()
@@ -12,6 +12,12 @@ namespace Hanori.Service.UuitTest.EFCore
             //TestMethod();
 
             //TestMethodAsync().Wait();
+
+            // Arrange
+            var entity = new TestSample();
+
+            // Act
+            RemoveAll();
         }
 
         public void TestMethod()
@@ -34,7 +40,7 @@ namespace Hanori.Service.UuitTest.EFCore
         public void TestCRUD()
         {
             // Arrange
-            var entity = new Sample();
+            var entity = new TestSample();
 
             // Act
             CreateOne(entity);
@@ -42,7 +48,7 @@ namespace Hanori.Service.UuitTest.EFCore
 
         public async Task TestCRUDAsync()
         {
-            var entity = new Sample();
+            var entity = new TestSample();
 
             await CreateOneAsync(entity);
         }
